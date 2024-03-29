@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #FFFBF9;
+}
+
+.logo img{
+	width: 205px;
+	padding-top: 20px;
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+}
+
+.logo h1{
+	text-align: center;
+	font-family: 'DM Serif Display', serif;
+	font-size: 40px;
+}
+
+.menu{
+	
+	background-color: #4C7154;
+	margin: auto;
+	height: 60px;
+	margin-top: 20px;
+
+}
+
+.elementos ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.elementos li{
+	list-style: none;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 59px;
+	font-size: 23px;
+	display: inline;
+}
+
+.elementos a{
+	text-decoration: none;
+	color: #FEF7ED;
+	font-family: 'Alice', serif;
+}
+
+.elementos li:hover{
+	background-color: #2F4F36;
+}
+
+.barista img{
+	justify-content: center;
+	display: flex;
+	margin: 0 none;
+	width: 100%;
+}
+
+.novidadesTitulo h1{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;                                    
+}
+
+.textonovi1{
+	color: #243528;
+	font-family: 'Alice', serif;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 11.71875vw;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.textonovi2{
+	color: #243528;
+	font-family: 'Alice', serif;
+	font-size: 35px;
+	text-align: center;
+	margin-right: 11.71875vw;
+	margin-bottom: 11px;
+	margin-top: 10px;
+}
+
+.imagemnovi1{
+	width: 420px;
+	border-radius: 15px;
+	margin-left: 11.71875vw;
+}
+
+.imagemnovi2{
+	width: 405px;
+	border-radius: 15px;
+	margin-right: 11.71875vw;
+	margin-top: 13px;
+}
+
+.novi{
+	height: 430px;
+}
+
+.esquerda{
+	float: left;
+	margin-top: 10px;
+}
+
+.direita{
+	float: right;
+	margin-top: 10px;
+}
+
+.hr{
+	color: black;
+	height: 400px;
+	position: absolute;
+	margin-left: 50%;
+	width: 3px;
+	background-color: black;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.patas{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.horariotitulo h1{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	font-size: 50px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;
+}
+
+.cafeteria{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 60px;
+	font-family: 'Alice', serif;
+}
+
+.cafeteriaTexto{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'Alice', serif;
+}
+
+.areaGatos{
+	font-size: 55px;
+	text-align: center;
+	margin-top: 80px;
+	font-family: 'Alice', serif;
+}
+
+.areaGatosTexto{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'Alice', serif;
+}
+
+.descanso{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Alice', serif;
+	text-decoration: underline;
+}
+
+.cafe{
+	margin-top: 200px;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.visita h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;                                    
+}
+
+.local{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 60px;
+	font-family: 'Alice', serif;
+	margin-bottom: 50px;
+	margin-bottom: 100px;
+}
+
+.parteBaixo{
+	background-color: #2F4F36;
+	height: 150px;
+	margin-top: 110px;
+}
+
+.menuBaixo ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menuBaixo li{
+	list-style: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	display: inline;
+	margin: 0%;
+}
+
+.menuBaixo a{
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+.redesBaixo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+}
+.redesBaixo li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.redesBaixo img{
+	height: 20px;
+}
+
+.direitos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-top: 25px;
+}
+
+/* -------------------------------------------
+CARDÁPIO
+------------------------------------------- */
+
+.cardapio{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 90px;
+	font-size: 45px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;
+}
+
+.comidao{
+	margin: 0;
+	padding: 0;
+}
+
+.comidascima{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	margin-top: 100px;
+}
+
+.comidasbaixo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 90px;
+}
+
+.patascima1{
+	float: left;
+	width: 140px;
+	margin-left: 30px;
+	margin-top: -25px;
+}
+
+.patascima2{
+	float: right;
+	width: 140px;
+	margin-top: -25px;
+	margin-right: 30px;
+}
+
+#conteudocomida1{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida1{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 15vw;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida1 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida1 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#conteudocomida2{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida2{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 240px;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida2 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida2 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#conteudocomida3{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida3{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 15vw;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida3 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida3 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#conteudocomida4{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida4{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 15vw;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida4 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida4 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#conteudocomida5{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida5{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 15vw;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida5 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida5 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#conteudocomida6{
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.4s;
+}
+
+#comida6{
+	background-color:white;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 15vw;
+	padding-top: 20px;
+	border: 1px solid black;
+	font-family: 'Alice', serif;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#comida6 p{
+	margin-top: 20px;
+	padding: 10px;
+}
+#comida6 h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**/
+
+#botao{
+	border: none;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#fecho{
+	border: none;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+/* parte da adoção */
+
+.parceriastitulo{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;  
+}
+
+.parcerias{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	margin-top: 100px;
+}
+
+.textoparcerias{
+	width: 300px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Alice', serif;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.cobasi{
+	background-color: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	padding-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+	min-height: 400px;
+}
+.cobasi p{
+	width: 320px;
+}
+
+.petlove{
+	background-color: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	padding-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+	min-height: 400px;
+}
+.petlove p{
+	width: 350px;
+}
+
+.vivaverde{
+	background-color:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	padding-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+
+}
+.vivaverde p{
+	width: 400px;
+}
+
+/* parte do sobre nos */
+
+.sobretitulo{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 45px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;  
+}
+
+.sobretextos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Alice', serif;
+	font-size: 40px;
+	flex-direction: column;
+}
+.sobretextos p{
+	width: 1200px;
+}
+
+/* parte dos produtos */
+
+.trabalhando{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.trabalhando h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;  
+}
+
+.trabalhando p{
+	font-family: 'Alice', serif;
+	font-size: 35px;
+	width: 900px;
+	text-align: center;
+}
+
+.trabalhando img{
+	width: 400px;
+	margin-top: 40px;
+}
+
+/* parte da adoção*/
+
+.imagemGato1 img{
+	width: 450px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+.imagemGato2 img{
+	width: 450px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.adocaoTexto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Alice', serif;
+	margin-top: 100px;
+}
+
+.botaoAdocao{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+.botaoAdocao button{
+	background-color: #4C7154;
+	border: none;
+	width: 400px;
+	height: 85px;
+	font-size: 45px;
+	font-family: 'Alice', serif;
+	font-weight: bold;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+}
+.botaoAdocao button:hover{
+	background-color: #243528;
+}
+
+/* parte dos gatos */
+
+.tituloGatos{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 65px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px; 
+}
+
+.gatitos{
+	display: flex;
+}
+.gatinhos1 img{
+	width: 750px;
+	margin-left: 0.625vw;
+}
+
+.gatinhos2 img{
+	width: 750px;
+	margin-right: 0.625vw;
+}
+
+
+/* PARTE DE AGENDAMENTO */
+
+.agendamentoTitulo h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	font-size: 85px;
+	color: #243528;
+	font-family: 'Unica One', cursive;
+	letter-spacing: 12px;
+}
+
+.agendamentoTexto p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Alice', serif;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.botaoAgendamento{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 55px;
+}
+.botaoAgendamento button{
+	background-color: #4C7154;
+	border: none;
+	width: 400px;
+	height: 85px;
+	font-size: 45px;
+	font-family: 'Alice', serif;
+	font-weight: bold;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+}
+.botaoAgendamento button:hover{
+	background-color: #243528;
+}
